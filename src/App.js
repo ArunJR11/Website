@@ -8,7 +8,7 @@ import Home  from "./components/pages/Home";
 import Services from "./components/pages/Services";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
-import Carousel from "./components/carousel/Carousel";
+import Carousel from "../src/components/carousel/Carousel";
 
 
 function App() {

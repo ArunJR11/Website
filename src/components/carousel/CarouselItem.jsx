@@ -1,8 +1,10 @@
 import React from 'react'
 
-const CarouselItem = () => {
+const CarouselItem = ({item,width}) => {
   return (
-    <div>
+    <div className='carousel-item' style={{width:width}}> 
+    <img className='carousel-img' src='{}'/>
+    <div className='carousel-item-text'>{item.description}</div>
       
     </div>
   )
